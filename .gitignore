@@ -1,0 +1,5 @@
+site/
+presentations/osc-overview/_output/
+.claude/codebase-graph.yaml
+.claude/manifest.yaml
+.claude/module-summaries.yaml

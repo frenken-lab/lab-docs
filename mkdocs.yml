@@ -1,0 +1,273 @@
+# MkDocs configuration for OSU CAR Mobility Systems Lab Setup Guide
+# Documentation: https://www.mkdocs.org/user-guide/configuration/
+
+site_name: CAR-MSL Lab Setup Guide
+site_url: https://osu-car-msl.github.io/lab-setup-guide/
+site_author: OSU CAR Mobility Systems Lab
+site_description: >-
+  Comprehensive tutorials and documentation to help lab members set up their 
+  development environment and workflows on the Ohio Supercomputer Center.
+
+repo_name: OSU-CAR-MSL/lab-setup-guide
+repo_url: https://github.com/OSU-CAR-MSL/lab-setup-guide
+edit_uri: edit/main/docs/
+
+# Copyright notice in footer
+copyright: Copyright &copy; 2024-2026 OSU CAR Mobility Systems Lab
+
+# Theme configuration
+theme:
+  name: material
+  custom_dir: overrides
+  
+  # Color palette with light/dark mode toggle
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom        # OSU scarlet
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  # Features
+  features:
+    - navigation.instant      # XHR loading for speed
+    - navigation.instant.prefetch
+    - navigation.tracking     # URL updates with anchor
+    - navigation.tabs         # Top-level sections as tabs
+    - navigation.tabs.sticky  # Tabs stay visible on scroll
+    - navigation.sections     # Render sections as groups in sidebar
+    - navigation.pruning      # Reduce rendered sidebar for performance
+    - navigation.indexes      # Section index pages
+    - navigation.top          # Back-to-top button
+    - search.suggest          # Search suggestions
+    - search.highlight        # Highlight search terms on page
+    - search.share            # Share search results
+    - content.code.copy       # Copy button on code blocks
+    - content.code.annotate   # Code annotations
+    - content.action.edit     # Edit this page link
+    - content.action.view     # View source alongside edit
+    - content.tooltips        # Improved tooltips
+    - navigation.footer       # Prev/next page links at bottom
+    - navigation.path         # Breadcrumb trail above page title
+  
+  # Icons
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+  
+  # Logo and favicon
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
+
+# Custom CSS for OSU branding
+extra_css:
+  - stylesheets/extra.css
+
+# Custom JavaScript
+extra_javascript:
+  - javascripts/feedback.js
+  - javascripts/details-hash.js
+  - javascripts/concept-graph.js
+  - javascripts/mathjax.js
+  - https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.28.1/cytoscape.min.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Extensions for enhanced markdown
+markdown_extensions:
+  # Code highlighting
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - abbr
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  
+  # Content formatting
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys            # Keyboard keys like ++ctrl+c++
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details         # Collapsible admonitions
+  - pymdownx.tabbed:         # Tabbed content
+      alternate_style: true
+  - pymdownx.arithmatex:     # Math rendering via MathJax
+      generic: true
+
+  # Admonitions (note, warning, tip, etc.)
+  - admonition
+  
+  # Tables
+  - tables
+
+  # Allow markdown inside HTML blocks (needed for grid cards)
+  - attr_list
+  - md_in_html
+  
+  # Table of contents
+  - toc:
+      permalink: true
+      toc_depth: 3
+  
+  # Task lists
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  
+  # Emojis
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# Build hooks
+hooks:
+  - scripts/concept_graph_hook.py
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - minify:
+      minify_html: true
+  - social:                    # Auto-generate Open Graph preview cards
+      cards_layout_options:
+        background_color: "#bb0000"    # OSU Scarlet
+        color: "#ffffff"               # White text
+  - glightbox                 # Click-to-zoom on images
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+  - tags
+
+# Navigation structure - mirrors your docs/ folder
+nav:
+  - Home: index.md
+  
+  - Getting Started:
+    - getting-started/index.md
+    - WSL2 Setup: getting-started/wsl-setup.md
+    - VS Code Setup: getting-started/vscode-setup.md
+    - VS Code Extensions: getting-started/vscode-extensions.md
+    - Python Environment Setup: getting-started/python-environment-setup.md
+    - AI Coding Assistants: getting-started/ai-coding-assistants.md
+    - Agent Workflows: getting-started/agent-workflows.md
+
+  - OSC Basics:
+    - osc-basics/index.md
+    - Clusters Overview: osc-basics/osc-clusters-overview.md
+    - Account Setup: osc-basics/osc-account-setup.md
+    - SSH Connection: osc-basics/osc-ssh-connection.md
+    - Remote Development: osc-basics/osc-remote-development.md
+    - File Transfer: osc-basics/osc-file-transfer.md
+    - OnDemand Portal: osc-basics/osc-ondemand.md
+
+  - Working on OSC:
+    - working-on-osc/index.md
+    - Job Submission: working-on-osc/osc-job-submission.md
+    - Environment Management: working-on-osc/osc-environment-management.md
+    - Pipeline Orchestration: working-on-osc/pipeline-orchestration.md
+    - CARLA Simulator: working-on-osc/carla-simulator.md
+    - MATLAB & Simulink: working-on-osc/matlab-simulink.md
+
+  - ML Workflows:
+    - ml-workflows/index.md
+    - PyTorch & GPU Setup: ml-workflows/pytorch-setup.md
+    - PyG (PyTorch Geometric): ml-workflows/pyg-setup.md
+    - GPU Preprocessing (RAPIDS): ml-workflows/rapids-gpu-preprocessing.md
+    - ML Project Template: ml-workflows/ml-workflow.md
+    - Notebook-to-Script Workflow: ml-workflows/notebook-to-script.md
+    - Data & Experiment Tracking: ml-workflows/data-experiment-tracking.md
+    - DuckDB Analytics Layer: ml-workflows/duckdb-analytics.md
+    - Hugging Face Spaces: ml-workflows/huggingface-spaces.md
+    - HPC Training Nuances: ml-workflows/hpc-training-nuances.md
+
+  - Visualization & Diagramming:
+    - visualization/index.md
+    - How ML Communicators Work: visualization/communicators.md
+    - Distill & TMLR Beyond PDF: visualization/distill-and-tmlr.md
+    - Architecture Diagrams: visualization/architecture-diagrams.md
+    - Data-Driven Figures: visualization/data-figures.md
+
+  - GitHub:
+    - Git Fundamentals: github/git-fundamentals.md
+    - Repository Setup: github/repository-setup.md
+    - SSH & Authentication: github/ssh-and-authentication.md
+    - GitHub Actions & CI/CD: github/github-actions-ci-cd.md
+    - Git Troubleshooting: github/git-troubleshooting.md
+
+  - Contributing:
+    - Contributing Guide: contributing/how-this-site-works.md
+    - GitHub Pages Setup: contributing/github-pages-setup.md
+    - Issues, PRs & Code Review: contributing/github-issues-and-prs.md
+    - GitHub Projects: contributing/github-projects.md
+
+  - Assignments:
+    - Overview: assignments/index.md
+    - "Assignment 1: Personal Website": assignments/personal-website.md
+    - "Assignment 2a: Exploratory Data Analysis": assignments/exploratory-data-analysis.md
+    - "Assignment 2b: Research Infrastructure": assignments/concepts-admin-setup.md
+    - "Assignment 2c: AI-Augmented Development": assignments/ai-augmented-development.md
+    - "Assignment 3a: Package Management Concepts": assignments/package-management-concepts.md
+    - "Assignment 3b: Neural Network from Scratch": assignments/neural-network-from-scratch.md
+    - Publishing Guide: assignments/publishing-guide.md
+    - Student Site Showcase: assignments/site-showcase.md
+    - Typst CV Guide: assignments/typst-cv-guide.md
+
+  - Resources:
+    - Templates: resources/templates.md
+    - Troubleshooting: resources/troubleshooting.md
+    - Presentations: resources/presentations.md
+    - Useful Links: resources/useful-links.md
+    - Concept Map: resources/concept-map.md
+
+  - Tags: tags.md
+
+# Extra configuration
+extra:
+  # Social links in footer
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/OSU-CAR-MSL
+      name: OSU CAR-MSL on GitHub
+  
+  # Version provider (optional, for future use)
+  # version:
+  #   provider: mike
+  
+  status:
+    new: Recently added
+    updated: Recently updated
+
+  analytics:
+    provider: custom
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/thumb-down-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! You can
+            <a href="https://github.com/OSU-CAR-MSL/lab-setup-guide/issues/new?title=[Feedback]+{title}&body=Page:+{url}%0A%0AWhat+could+be+improved?"
+            target="_blank" rel="noopener">open an issue</a> to tell us more.

@@ -1,0 +1,185 @@
+/* OSU CAR Mobility Systems Lab - Custom Branding */
+
+/* Widen content grid from 61rem → 80rem */
+.md-grid { max-width: 80rem; }
+
+/* Page status icon for "updated" (no built-in icon, so reuse the pencil) */
+.md-status--updated::after {
+  mask-image: var(--md-status--recently-updated);
+  -webkit-mask-image: var(--md-status--recently-updated);
+}
+:root {
+  --md-status--recently-updated: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21,10.12H14.22L16.96,7.38L14.59,5L8,11.59L14.59,18.17L16.96,15.79L14.22,13.05H21V10.12M4,2A2,2 0 0,0 2,4V20A2,2 0 0,0 4,22H13V20H4V4H13V2H4Z"/></svg>');
+}
+
+/* When TOC is hidden via frontmatter, let content fill the freed space */
+.md-content { max-width: none; }
+
+/* Mermaid diagrams — allow horizontal scroll instead of squishing wide flowcharts */
+.mermaid {
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 100%;
+}
+.mermaid svg {
+  min-width: 800px;
+}
+
+/* Light mode colors */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #bb0000;        /* OSU Scarlet */
+  --md-primary-fg-color--light: #d44242;
+  --md-primary-fg-color--dark: #8e0000;
+  --md-accent-fg-color: #bb0000;
+}
+
+/* Dark mode colors */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #bb0000;
+  --md-primary-fg-color--light: #d44242;
+  --md-primary-fg-color--dark: #8e0000;
+  --md-accent-fg-color: #d44242;
+}
+
+/* Header */
+.md-header {
+  background-color: var(--md-primary-fg-color);
+}
+
+/* Links */
+.md-typeset a {
+  color: var(--md-accent-fg-color);
+}
+
+.md-typeset a:hover {
+  color: var(--md-primary-fg-color--dark);
+}
+
+/* Navigation tabs */
+.md-tabs {
+  background-color: var(--md-primary-fg-color--dark);
+}
+
+/* Footer */
+.md-footer {
+  background-color: #333333;
+}
+
+/* Mobile table scroll */
+.md-typeset table {
+  overflow-x: auto;
+  display: block;
+}
+
+/* Zebra striping for tables */
+[data-md-color-scheme="default"] .md-typeset table tbody tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+[data-md-color-scheme="slate"] .md-typeset table tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+/* Interactive concept map (resources/concept-map.md) */
+.concept-graph {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  margin: 1rem 0;
+  overflow: hidden;
+  background: var(--md-default-bg-color);
+}
+.concept-graph__canvas {
+  width: 100%;
+  height: 620px;
+  background: var(--md-code-bg-color);
+}
+.concept-graph__status {
+  padding: 2rem;
+  text-align: center;
+  color: var(--md-default-fg-color--light);
+}
+.concept-graph__status--error {
+  color: #bb0000;
+}
+.concept-graph__legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1rem;
+  padding: 0.7rem 1rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  font-size: 0.8rem;
+  align-items: center;
+}
+.concept-graph__legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  cursor: pointer;
+  user-select: none;
+}
+.concept-graph__swatch {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+.concept-graph__fit {
+  margin-left: auto;
+  background: var(--md-primary-fg-color);
+  color: #fff;
+  border: none;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+.concept-graph__fit:hover {
+  background: var(--md-primary-fg-color--dark);
+}
+
+/* Collapsible reference blocks (<details class="collapsible-issue">) */
+/* Used to fold long troubleshooting/recipe sections without re-indenting content. */
+.md-typeset details.collapsible-issue {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 3px solid var(--md-primary-fg-color);
+  border-radius: 4px;
+  padding: 0.6rem 0.9rem;
+  margin: 0.8rem 0;
+  background-color: var(--md-code-bg-color);
+}
+
+.md-typeset details.collapsible-issue > summary {
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.2rem 0;
+  list-style-position: outside;
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset details.collapsible-issue[open] > summary {
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  padding-bottom: 0.4rem;
+}
+
+/* Trim the margin on the first/last child inside to keep blocks compact */
+.md-typeset details.collapsible-issue > :first-of-type:not(summary) { margin-top: 0; }
+.md-typeset details.collapsible-issue > :last-child { margin-bottom: 0; }
+
+/* Print styles */
+@media print {
+  .md-header,
+  .md-tabs,
+  .md-sidebar,
+  .md-footer,
+  .md-search,
+  .md-top {
+    display: none !important;
+  }
+
+  .md-content {
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+}

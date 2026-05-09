@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Scarlet square background for browser tab visibility -->
+  <rect width="64" height="64" rx="10" fill="#bb0000"/>
+  <g fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 40 L14 28 Q16 25 20 25 L44 25 Q48 25 50 28 L56 40 Z"/>
+    <path d="M18 28 L22 32 L42 32 L46 28"/>
+    <circle cx="20" cy="44" r="5" fill="#ffffff"/>
+    <circle cx="44" cy="44" r="5" fill="#ffffff"/>
+    <line x1="2" y1="18" x2="10" y2="18" opacity="0.7"/>
+    <line x1="4" y1="13" x2="14" y2="13" opacity="0.4"/>
+  </g>
+</svg>

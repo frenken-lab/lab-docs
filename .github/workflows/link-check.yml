@@ -1,0 +1,67 @@
+# Link checker and content freshness workflow
+# Runs separately from deploy so flaky external links don't block deploys.
+
+name: Link Check & Content Freshness
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - 'mkdocs.yml'
+  schedule:
+    - cron: '0 9 * * 1'  # Every Monday at 9 AM UTC
+  workflow_dispatch:
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check external links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --exclude-path site
+            --exclude 'ondemand\.osc\.edu'
+            --exclude 'my\.osc\.edu'
+            --exclude 'localhost'
+            --exclude '127\.0\.0\.1'
+            --exclude 'example\.com'
+            --exclude 'linux\.die\.net'
+            --exclude 'mathworks\.com'
+            --exclude 'oscprod\.service-now\.com'
+            --exclude 'quarto\.org'
+            --exclude 'slurm\.schedmd\.com'
+            --no-progress
+            'docs/**/*.md'
+          fail: true
+
+      - name: Upload link check report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: link-check-report
+          path: lychee/out.md
+          retention-days: 30
+
+  freshness-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Check content freshness
+        run: python scripts/check-freshness.py --max-age-days 365
+        continue-on-error: false
+
+      - name: Check for SSOT duplication
+        run: python scripts/check-duplication.py
+        continue-on-error: true

@@ -1,0 +1,2022 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "assignments/ai-augmented-development.md",
+        "label": "Assignment 2c: AI-Augmented Development",
+        "section": "assignments",
+        "color": "#bb0000",
+        "url": "/assignments/ai-augmented-development/"
+      }
+    },
+    {
+      "data": {
+        "id": "assignments/concepts-admin-setup.md",
+        "label": "Assignment 2b: Research Infrastructure",
+        "section": "assignments",
+        "color": "#bb0000",
+        "url": "/assignments/concepts-admin-setup/"
+      }
+    },
+    {
+      "data": {
+        "id": "assignments/exploratory-data-analysis.md",
+        "label": "Assignment 2a: Exploratory Data Analysis",
+        "section": "assignments",
+        "color": "#bb0000",
+        "url": "/assignments/exploratory-data-analysis/"
+      }
+    },
+    {
+      "data": {
+        "id": "assignments/index.md",
+        "label": "Assignments",
+        "section": "assignments",
+        "color": "#bb0000",
+        "url": "/assignments/index/"
+      }
+    },
+    {
+      "data": {
+        "id": "assignments/neural-network-from-scratch.md",
+        "label": "Assignment 3b: Neural Network from Scratch",
+        "section": "assignments",
+        "color": "#bb0000",
+        "url": "/assignments/neural-network-from-scratch/"
+      }
+    },
+    {
+      "data": {
+        "id": "assignments/package-management-concepts.md",
+        "label": "Assignment 3a: Package Management Concepts",
+        "section": "assignments",
+        "color": "#bb0000",
+        "url": "/assignments/package-management-concepts/"
+      }
+    },
+    {
+      "data": {
+        "id": "assignments/personal-website.md",
+        "label": "Assignment 1: Personal Academic Website",
+        "section": "assignments",
+        "color": "#bb0000",
+        "url": "/assignments/personal-website/"
+      }
+    },
+    {
+      "data": {
+        "id": "assignments/publishing-guide.md",
+        "label": "Publishing Guide",
+        "section": "assignments",
+        "color": "#bb0000",
+        "url": "/assignments/publishing-guide/"
+      }
+    },
+    {
+      "data": {
+        "id": "assignments/site-showcase.md",
+        "label": "Student Site Showcase",
+        "section": "assignments",
+        "color": "#bb0000",
+        "url": "/assignments/site-showcase/"
+      }
+    },
+    {
+      "data": {
+        "id": "assignments/typst-cv-guide.md",
+        "label": "Typst CV Guide",
+        "section": "assignments",
+        "color": "#bb0000",
+        "url": "/assignments/typst-cv-guide/"
+      }
+    },
+    {
+      "data": {
+        "id": "contributing/github-issues-and-prs.md",
+        "label": "Issues, Pull Requests & Code Review",
+        "section": "contributing",
+        "color": "#059669",
+        "url": "/contributing/github-issues-and-prs/"
+      }
+    },
+    {
+      "data": {
+        "id": "contributing/github-pages-setup.md",
+        "label": "GitHub Pages Setup",
+        "section": "contributing",
+        "color": "#059669",
+        "url": "/contributing/github-pages-setup/"
+      }
+    },
+    {
+      "data": {
+        "id": "contributing/github-projects.md",
+        "label": "Project Management with GitHub Projects",
+        "section": "contributing",
+        "color": "#059669",
+        "url": "/contributing/github-projects/"
+      }
+    },
+    {
+      "data": {
+        "id": "contributing/how-this-site-works.md",
+        "label": "Contributing Guide",
+        "section": "contributing",
+        "color": "#059669",
+        "url": "/contributing/how-this-site-works/"
+      }
+    },
+    {
+      "data": {
+        "id": "getting-started/agent-workflows.md",
+        "label": "Agent Workflows",
+        "section": "getting-started",
+        "color": "#3b82f6",
+        "url": "/getting-started/agent-workflows/"
+      }
+    },
+    {
+      "data": {
+        "id": "getting-started/ai-coding-assistants.md",
+        "label": "AI Coding Assistants",
+        "section": "getting-started",
+        "color": "#3b82f6",
+        "url": "/getting-started/ai-coding-assistants/"
+      }
+    },
+    {
+      "data": {
+        "id": "getting-started/index.md",
+        "label": "Getting Started",
+        "section": "getting-started",
+        "color": "#3b82f6",
+        "url": "/getting-started/index/"
+      }
+    },
+    {
+      "data": {
+        "id": "getting-started/python-environment-setup.md",
+        "label": "Python Environment Setup",
+        "section": "getting-started",
+        "color": "#3b82f6",
+        "url": "/getting-started/python-environment-setup/"
+      }
+    },
+    {
+      "data": {
+        "id": "getting-started/vscode-extensions.md",
+        "label": "VS Code Extensions",
+        "section": "getting-started",
+        "color": "#3b82f6",
+        "url": "/getting-started/vscode-extensions/"
+      }
+    },
+    {
+      "data": {
+        "id": "getting-started/vscode-setup.md",
+        "label": "VS Code Setup Guide",
+        "section": "getting-started",
+        "color": "#3b82f6",
+        "url": "/getting-started/vscode-setup/"
+      }
+    },
+    {
+      "data": {
+        "id": "getting-started/wsl-setup.md",
+        "label": "WSL2 Setup",
+        "section": "getting-started",
+        "color": "#3b82f6",
+        "url": "/getting-started/wsl-setup/"
+      }
+    },
+    {
+      "data": {
+        "id": "github/git-fundamentals.md",
+        "label": "Git Fundamentals",
+        "section": "github",
+        "color": "#059669",
+        "url": "/github/git-fundamentals/"
+      }
+    },
+    {
+      "data": {
+        "id": "github/git-troubleshooting.md",
+        "label": "Git Troubleshooting",
+        "section": "github",
+        "color": "#059669",
+        "url": "/github/git-troubleshooting/"
+      }
+    },
+    {
+      "data": {
+        "id": "github/github-actions-ci-cd.md",
+        "label": "GitHub Actions CI/CD",
+        "section": "github",
+        "color": "#059669",
+        "url": "/github/github-actions-ci-cd/"
+      }
+    },
+    {
+      "data": {
+        "id": "github/repository-setup.md",
+        "label": "Repository Setup",
+        "section": "github",
+        "color": "#059669",
+        "url": "/github/repository-setup/"
+      }
+    },
+    {
+      "data": {
+        "id": "github/ssh-and-authentication.md",
+        "label": "SSH & Authentication",
+        "section": "github",
+        "color": "#059669",
+        "url": "/github/ssh-and-authentication/"
+      }
+    },
+    {
+      "data": {
+        "id": "index.md",
+        "label": "CAR Mobility Systems Lab Setup Guide",
+        "section": "root",
+        "color": "#64748b",
+        "url": "/index/"
+      }
+    },
+    {
+      "data": {
+        "id": "ml-workflows/data-experiment-tracking.md",
+        "label": "Data & Experiment Tracking",
+        "section": "ml-workflows",
+        "color": "#7c3aed",
+        "url": "/ml-workflows/data-experiment-tracking/"
+      }
+    },
+    {
+      "data": {
+        "id": "ml-workflows/duckdb-analytics.md",
+        "label": "DuckDB Analytics Layer",
+        "section": "ml-workflows",
+        "color": "#7c3aed",
+        "url": "/ml-workflows/duckdb-analytics/"
+      }
+    },
+    {
+      "data": {
+        "id": "ml-workflows/hpc-training-nuances.md",
+        "label": "HPC Training Nuances",
+        "section": "ml-workflows",
+        "color": "#7c3aed",
+        "url": "/ml-workflows/hpc-training-nuances/"
+      }
+    },
+    {
+      "data": {
+        "id": "ml-workflows/huggingface-spaces.md",
+        "label": "Hugging Face Spaces Deployment",
+        "section": "ml-workflows",
+        "color": "#7c3aed",
+        "url": "/ml-workflows/huggingface-spaces/"
+      }
+    },
+    {
+      "data": {
+        "id": "ml-workflows/index.md",
+        "label": "ML Workflows",
+        "section": "ml-workflows",
+        "color": "#7c3aed",
+        "url": "/ml-workflows/index/"
+      }
+    },
+    {
+      "data": {
+        "id": "ml-workflows/ml-workflow.md",
+        "label": "ML Project Template",
+        "section": "ml-workflows",
+        "color": "#7c3aed",
+        "url": "/ml-workflows/ml-workflow/"
+      }
+    },
+    {
+      "data": {
+        "id": "ml-workflows/notebook-to-script.md",
+        "label": "Notebook-to-Script Workflow",
+        "section": "ml-workflows",
+        "color": "#7c3aed",
+        "url": "/ml-workflows/notebook-to-script/"
+      }
+    },
+    {
+      "data": {
+        "id": "ml-workflows/pyg-setup.md",
+        "label": "PyG (PyTorch Geometric) Setup",
+        "section": "ml-workflows",
+        "color": "#7c3aed",
+        "url": "/ml-workflows/pyg-setup/"
+      }
+    },
+    {
+      "data": {
+        "id": "ml-workflows/pytorch-setup.md",
+        "label": "PyTorch & GPU Setup",
+        "section": "ml-workflows",
+        "color": "#7c3aed",
+        "url": "/ml-workflows/pytorch-setup/"
+      }
+    },
+    {
+      "data": {
+        "id": "ml-workflows/rapids-gpu-preprocessing.md",
+        "label": "GPU Preprocessing (RAPIDS)",
+        "section": "ml-workflows",
+        "color": "#7c3aed",
+        "url": "/ml-workflows/rapids-gpu-preprocessing/"
+      }
+    },
+    {
+      "data": {
+        "id": "osc-basics/index.md",
+        "label": "OSC Basics",
+        "section": "osc-basics",
+        "color": "#d97706",
+        "url": "/osc-basics/index/"
+      }
+    },
+    {
+      "data": {
+        "id": "osc-basics/osc-account-setup.md",
+        "label": "OSC Account Setup",
+        "section": "osc-basics",
+        "color": "#d97706",
+        "url": "/osc-basics/osc-account-setup/"
+      }
+    },
+    {
+      "data": {
+        "id": "osc-basics/osc-clusters-overview.md",
+        "label": "OSC Clusters Overview",
+        "section": "osc-basics",
+        "color": "#d97706",
+        "url": "/osc-basics/osc-clusters-overview/"
+      }
+    },
+    {
+      "data": {
+        "id": "osc-basics/osc-file-transfer.md",
+        "label": "File Transfer Guide",
+        "section": "osc-basics",
+        "color": "#d97706",
+        "url": "/osc-basics/osc-file-transfer/"
+      }
+    },
+    {
+      "data": {
+        "id": "osc-basics/osc-ondemand.md",
+        "label": "OSC OnDemand Portal",
+        "section": "osc-basics",
+        "color": "#d97706",
+        "url": "/osc-basics/osc-ondemand/"
+      }
+    },
+    {
+      "data": {
+        "id": "osc-basics/osc-remote-development.md",
+        "label": "Remote Development on OSC",
+        "section": "osc-basics",
+        "color": "#d97706",
+        "url": "/osc-basics/osc-remote-development/"
+      }
+    },
+    {
+      "data": {
+        "id": "osc-basics/osc-ssh-connection.md",
+        "label": "SSH Connection Guide",
+        "section": "osc-basics",
+        "color": "#d97706",
+        "url": "/osc-basics/osc-ssh-connection/"
+      }
+    },
+    {
+      "data": {
+        "id": "resources/concept-map.md",
+        "label": "Concept Map & Knowledge Graph",
+        "section": "resources",
+        "color": "#64748b",
+        "url": "/resources/concept-map/"
+      }
+    },
+    {
+      "data": {
+        "id": "resources/presentations.md",
+        "label": "Presentations",
+        "section": "resources",
+        "color": "#64748b",
+        "url": "/resources/presentations/"
+      }
+    },
+    {
+      "data": {
+        "id": "resources/templates.md",
+        "label": "Templates",
+        "section": "resources",
+        "color": "#64748b",
+        "url": "/resources/templates/"
+      }
+    },
+    {
+      "data": {
+        "id": "resources/troubleshooting.md",
+        "label": "Troubleshooting Guide",
+        "section": "resources",
+        "color": "#64748b",
+        "url": "/resources/troubleshooting/"
+      }
+    },
+    {
+      "data": {
+        "id": "resources/useful-links.md",
+        "label": "Useful Links",
+        "section": "resources",
+        "color": "#64748b",
+        "url": "/resources/useful-links/"
+      }
+    },
+    {
+      "data": {
+        "id": "tags.md",
+        "label": "Tags",
+        "section": "root",
+        "color": "#64748b",
+        "url": "/tags/"
+      }
+    },
+    {
+      "data": {
+        "id": "working-on-osc/carla-simulator.md",
+        "label": "CARLA Simulator on OSC",
+        "section": "working-on-osc",
+        "color": "#d97706",
+        "url": "/working-on-osc/carla-simulator/"
+      }
+    },
+    {
+      "data": {
+        "id": "working-on-osc/index.md",
+        "label": "Working on OSC",
+        "section": "working-on-osc",
+        "color": "#d97706",
+        "url": "/working-on-osc/index/"
+      }
+    },
+    {
+      "data": {
+        "id": "working-on-osc/matlab-simulink.md",
+        "label": "MATLAB & Simulink on OSC",
+        "section": "working-on-osc",
+        "color": "#d97706",
+        "url": "/working-on-osc/matlab-simulink/"
+      }
+    },
+    {
+      "data": {
+        "id": "working-on-osc/osc-environment-management.md",
+        "label": "Environment Management",
+        "section": "working-on-osc",
+        "color": "#d97706",
+        "url": "/working-on-osc/osc-environment-management/"
+      }
+    },
+    {
+      "data": {
+        "id": "working-on-osc/osc-job-submission.md",
+        "label": "Job Submission Guide",
+        "section": "working-on-osc",
+        "color": "#d97706",
+        "url": "/working-on-osc/osc-job-submission/"
+      }
+    },
+    {
+      "data": {
+        "id": "working-on-osc/pipeline-orchestration.md",
+        "label": "Pipeline Orchestration",
+        "section": "working-on-osc",
+        "color": "#d97706",
+        "url": "/working-on-osc/pipeline-orchestration/"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "source": "assignments/ai-augmented-development.md",
+        "target": "assignments/concepts-admin-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/ai-augmented-development.md",
+        "target": "getting-started/vscode-extensions.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/ai-augmented-development.md",
+        "target": "getting-started/ai-coding-assistants.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/ai-augmented-development.md",
+        "target": "assignments/publishing-guide.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/concepts-admin-setup.md",
+        "target": "assignments/ai-augmented-development.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/concepts-admin-setup.md",
+        "target": "osc-basics/osc-account-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/concepts-admin-setup.md",
+        "target": "osc-basics/osc-ssh-connection.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/concepts-admin-setup.md",
+        "target": "ml-workflows/data-experiment-tracking.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/concepts-admin-setup.md",
+        "target": "ml-workflows/ml-workflow.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/concepts-admin-setup.md",
+        "target": "assignments/publishing-guide.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/exploratory-data-analysis.md",
+        "target": "getting-started/python-environment-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/exploratory-data-analysis.md",
+        "target": "assignments/publishing-guide.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/index.md",
+        "target": "assignments/publishing-guide.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/index.md",
+        "target": "assignments/personal-website.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/index.md",
+        "target": "assignments/exploratory-data-analysis.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/index.md",
+        "target": "assignments/concepts-admin-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/index.md",
+        "target": "assignments/ai-augmented-development.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/index.md",
+        "target": "assignments/package-management-concepts.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/index.md",
+        "target": "assignments/neural-network-from-scratch.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/index.md",
+        "target": "assignments/site-showcase.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/index.md",
+        "target": "assignments/typst-cv-guide.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/neural-network-from-scratch.md",
+        "target": "assignments/package-management-concepts.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/neural-network-from-scratch.md",
+        "target": "ml-workflows/pytorch-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/neural-network-from-scratch.md",
+        "target": "assignments/publishing-guide.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/package-management-concepts.md",
+        "target": "assignments/neural-network-from-scratch.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/package-management-concepts.md",
+        "target": "working-on-osc/osc-environment-management.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/package-management-concepts.md",
+        "target": "getting-started/python-environment-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/package-management-concepts.md",
+        "target": "assignments/publishing-guide.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/publishing-guide.md",
+        "target": "assignments/personal-website.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/publishing-guide.md",
+        "target": "assignments/site-showcase.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/site-showcase.md",
+        "target": "assignments/personal-website.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/site-showcase.md",
+        "target": "assignments/typst-cv-guide.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/typst-cv-guide.md",
+        "target": "assignments/personal-website.md"
+      }
+    },
+    {
+      "data": {
+        "source": "assignments/typst-cv-guide.md",
+        "target": "assignments/site-showcase.md"
+      }
+    },
+    {
+      "data": {
+        "source": "contributing/github-issues-and-prs.md",
+        "target": "github/git-fundamentals.md"
+      }
+    },
+    {
+      "data": {
+        "source": "contributing/github-issues-and-prs.md",
+        "target": "github/git-troubleshooting.md"
+      }
+    },
+    {
+      "data": {
+        "source": "contributing/github-issues-and-prs.md",
+        "target": "contributing/how-this-site-works.md"
+      }
+    },
+    {
+      "data": {
+        "source": "contributing/github-issues-and-prs.md",
+        "target": "contributing/github-projects.md"
+      }
+    },
+    {
+      "data": {
+        "source": "contributing/github-issues-and-prs.md",
+        "target": "contributing/github-pages-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "contributing/github-pages-setup.md",
+        "target": "assignments/personal-website.md"
+      }
+    },
+    {
+      "data": {
+        "source": "contributing/github-pages-setup.md",
+        "target": "github/github-actions-ci-cd.md"
+      }
+    },
+    {
+      "data": {
+        "source": "contributing/github-pages-setup.md",
+        "target": "contributing/how-this-site-works.md"
+      }
+    },
+    {
+      "data": {
+        "source": "contributing/github-projects.md",
+        "target": "contributing/github-issues-and-prs.md"
+      }
+    },
+    {
+      "data": {
+        "source": "contributing/github-projects.md",
+        "target": "github/ssh-and-authentication.md"
+      }
+    },
+    {
+      "data": {
+        "source": "contributing/github-projects.md",
+        "target": "contributing/how-this-site-works.md"
+      }
+    },
+    {
+      "data": {
+        "source": "contributing/github-projects.md",
+        "target": "contributing/github-pages-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "contributing/how-this-site-works.md",
+        "target": "github/git-fundamentals.md"
+      }
+    },
+    {
+      "data": {
+        "source": "contributing/how-this-site-works.md",
+        "target": "contributing/github-issues-and-prs.md"
+      }
+    },
+    {
+      "data": {
+        "source": "contributing/how-this-site-works.md",
+        "target": "contributing/github-projects.md"
+      }
+    },
+    {
+      "data": {
+        "source": "contributing/how-this-site-works.md",
+        "target": "contributing/github-pages-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/agent-workflows.md",
+        "target": "getting-started/ai-coding-assistants.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/agent-workflows.md",
+        "target": "working-on-osc/osc-job-submission.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/agent-workflows.md",
+        "target": "working-on-osc/pipeline-orchestration.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/ai-coding-assistants.md",
+        "target": "getting-started/agent-workflows.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/ai-coding-assistants.md",
+        "target": "getting-started/vscode-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/ai-coding-assistants.md",
+        "target": "getting-started/vscode-extensions.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/ai-coding-assistants.md",
+        "target": "osc-basics/osc-remote-development.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/index.md",
+        "target": "osc-basics/index.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/index.md",
+        "target": "getting-started/wsl-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/index.md",
+        "target": "getting-started/vscode-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/index.md",
+        "target": "getting-started/vscode-extensions.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/index.md",
+        "target": "getting-started/python-environment-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/index.md",
+        "target": "getting-started/ai-coding-assistants.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/index.md",
+        "target": "getting-started/agent-workflows.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/python-environment-setup.md",
+        "target": "working-on-osc/osc-environment-management.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/python-environment-setup.md",
+        "target": "getting-started/wsl-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/python-environment-setup.md",
+        "target": "getting-started/ai-coding-assistants.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/python-environment-setup.md",
+        "target": "ml-workflows/pytorch-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/vscode-extensions.md",
+        "target": "osc-basics/osc-remote-development.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/vscode-extensions.md",
+        "target": "getting-started/wsl-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/vscode-extensions.md",
+        "target": "getting-started/vscode-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/vscode-extensions.md",
+        "target": "osc-basics/osc-ssh-connection.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/vscode-extensions.md",
+        "target": "ml-workflows/pytorch-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/vscode-extensions.md",
+        "target": "resources/troubleshooting.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/vscode-setup.md",
+        "target": "getting-started/vscode-extensions.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/vscode-setup.md",
+        "target": "osc-basics/osc-remote-development.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/vscode-setup.md",
+        "target": "osc-basics/osc-ssh-connection.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/vscode-setup.md",
+        "target": "resources/troubleshooting.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/wsl-setup.md",
+        "target": "getting-started/python-environment-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/wsl-setup.md",
+        "target": "getting-started/vscode-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "getting-started/wsl-setup.md",
+        "target": "getting-started/ai-coding-assistants.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/git-fundamentals.md",
+        "target": "github/ssh-and-authentication.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/git-fundamentals.md",
+        "target": "github/repository-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/git-fundamentals.md",
+        "target": "contributing/github-issues-and-prs.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/git-fundamentals.md",
+        "target": "github/git-troubleshooting.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/git-fundamentals.md",
+        "target": "getting-started/python-environment-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/git-troubleshooting.md",
+        "target": "github/git-fundamentals.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/git-troubleshooting.md",
+        "target": "contributing/github-issues-and-prs.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/git-troubleshooting.md",
+        "target": "resources/troubleshooting.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/github-actions-ci-cd.md",
+        "target": "github/git-fundamentals.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/github-actions-ci-cd.md",
+        "target": "github/ssh-and-authentication.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/github-actions-ci-cd.md",
+        "target": "contributing/github-pages-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/github-actions-ci-cd.md",
+        "target": "contributing/github-projects.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/github-actions-ci-cd.md",
+        "target": "ml-workflows/huggingface-spaces.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/repository-setup.md",
+        "target": "github/ssh-and-authentication.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/repository-setup.md",
+        "target": "resources/templates.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/repository-setup.md",
+        "target": "github/git-fundamentals.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/repository-setup.md",
+        "target": "getting-started/python-environment-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/repository-setup.md",
+        "target": "contributing/github-projects.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/repository-setup.md",
+        "target": "contributing/github-issues-and-prs.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/ssh-and-authentication.md",
+        "target": "contributing/github-projects.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/ssh-and-authentication.md",
+        "target": "github/github-actions-ci-cd.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/ssh-and-authentication.md",
+        "target": "osc-basics/osc-ssh-connection.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/ssh-and-authentication.md",
+        "target": "github/git-fundamentals.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/ssh-and-authentication.md",
+        "target": "github/repository-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "github/ssh-and-authentication.md",
+        "target": "contributing/github-issues-and-prs.md"
+      }
+    },
+    {
+      "data": {
+        "source": "index.md",
+        "target": "ml-workflows/huggingface-spaces.md"
+      }
+    },
+    {
+      "data": {
+        "source": "index.md",
+        "target": "getting-started/wsl-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "index.md",
+        "target": "getting-started/vscode-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "index.md",
+        "target": "osc-basics/osc-account-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "index.md",
+        "target": "osc-basics/osc-ssh-connection.md"
+      }
+    },
+    {
+      "data": {
+        "source": "index.md",
+        "target": "osc-basics/osc-remote-development.md"
+      }
+    },
+    {
+      "data": {
+        "source": "index.md",
+        "target": "github/git-fundamentals.md"
+      }
+    },
+    {
+      "data": {
+        "source": "index.md",
+        "target": "osc-basics/osc-clusters-overview.md"
+      }
+    },
+    {
+      "data": {
+        "source": "index.md",
+        "target": "working-on-osc/osc-job-submission.md"
+      }
+    },
+    {
+      "data": {
+        "source": "index.md",
+        "target": "ml-workflows/pytorch-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "index.md",
+        "target": "contributing/how-this-site-works.md"
+      }
+    },
+    {
+      "data": {
+        "source": "index.md",
+        "target": "assignments/index.md"
+      }
+    },
+    {
+      "data": {
+        "source": "index.md",
+        "target": "resources/troubleshooting.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/data-experiment-tracking.md",
+        "target": "ml-workflows/duckdb-analytics.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/data-experiment-tracking.md",
+        "target": "ml-workflows/huggingface-spaces.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/data-experiment-tracking.md",
+        "target": "ml-workflows/ml-workflow.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/data-experiment-tracking.md",
+        "target": "ml-workflows/pytorch-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/data-experiment-tracking.md",
+        "target": "working-on-osc/osc-job-submission.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/data-experiment-tracking.md",
+        "target": "working-on-osc/osc-environment-management.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/duckdb-analytics.md",
+        "target": "ml-workflows/data-experiment-tracking.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/duckdb-analytics.md",
+        "target": "working-on-osc/pipeline-orchestration.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/duckdb-analytics.md",
+        "target": "ml-workflows/ml-workflow.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/hpc-training-nuances.md",
+        "target": "osc-basics/osc-clusters-overview.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/huggingface-spaces.md",
+        "target": "ml-workflows/data-experiment-tracking.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/huggingface-spaces.md",
+        "target": "ml-workflows/duckdb-analytics.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/huggingface-spaces.md",
+        "target": "working-on-osc/pipeline-orchestration.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/index.md",
+        "target": "working-on-osc/index.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/index.md",
+        "target": "ml-workflows/pytorch-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/index.md",
+        "target": "ml-workflows/pyg-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/index.md",
+        "target": "ml-workflows/rapids-gpu-preprocessing.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/index.md",
+        "target": "ml-workflows/ml-workflow.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/index.md",
+        "target": "ml-workflows/notebook-to-script.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/index.md",
+        "target": "ml-workflows/data-experiment-tracking.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/index.md",
+        "target": "ml-workflows/duckdb-analytics.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/index.md",
+        "target": "ml-workflows/huggingface-spaces.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/index.md",
+        "target": "ml-workflows/hpc-training-nuances.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/ml-workflow.md",
+        "target": "osc-basics/osc-clusters-overview.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/ml-workflow.md",
+        "target": "working-on-osc/osc-environment-management.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/ml-workflow.md",
+        "target": "ml-workflows/pytorch-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/ml-workflow.md",
+        "target": "working-on-osc/osc-job-submission.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/ml-workflow.md",
+        "target": "ml-workflows/data-experiment-tracking.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/notebook-to-script.md",
+        "target": "working-on-osc/osc-job-submission.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/notebook-to-script.md",
+        "target": "ml-workflows/data-experiment-tracking.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/notebook-to-script.md",
+        "target": "working-on-osc/pipeline-orchestration.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/notebook-to-script.md",
+        "target": "ml-workflows/pytorch-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/pyg-setup.md",
+        "target": "ml-workflows/pytorch-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/pyg-setup.md",
+        "target": "osc-basics/osc-ssh-connection.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/pyg-setup.md",
+        "target": "working-on-osc/osc-job-submission.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/pyg-setup.md",
+        "target": "ml-workflows/data-experiment-tracking.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/pyg-setup.md",
+        "target": "working-on-osc/osc-environment-management.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/pytorch-setup.md",
+        "target": "ml-workflows/pyg-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/pytorch-setup.md",
+        "target": "osc-basics/osc-clusters-overview.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/pytorch-setup.md",
+        "target": "working-on-osc/osc-job-submission.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/pytorch-setup.md",
+        "target": "ml-workflows/ml-workflow.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/rapids-gpu-preprocessing.md",
+        "target": "working-on-osc/osc-environment-management.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/rapids-gpu-preprocessing.md",
+        "target": "ml-workflows/pytorch-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/rapids-gpu-preprocessing.md",
+        "target": "working-on-osc/pipeline-orchestration.md"
+      }
+    },
+    {
+      "data": {
+        "source": "ml-workflows/rapids-gpu-preprocessing.md",
+        "target": "ml-workflows/duckdb-analytics.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/index.md",
+        "target": "working-on-osc/index.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/index.md",
+        "target": "osc-basics/osc-clusters-overview.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/index.md",
+        "target": "osc-basics/osc-account-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/index.md",
+        "target": "osc-basics/osc-ssh-connection.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/index.md",
+        "target": "osc-basics/osc-remote-development.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/index.md",
+        "target": "osc-basics/osc-file-transfer.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/index.md",
+        "target": "osc-basics/osc-ondemand.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-account-setup.md",
+        "target": "osc-basics/osc-clusters-overview.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-account-setup.md",
+        "target": "osc-basics/osc-ssh-connection.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-account-setup.md",
+        "target": "osc-basics/osc-remote-development.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-account-setup.md",
+        "target": "working-on-osc/osc-job-submission.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-account-setup.md",
+        "target": "resources/troubleshooting.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-clusters-overview.md",
+        "target": "working-on-osc/osc-environment-management.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-clusters-overview.md",
+        "target": "working-on-osc/osc-job-submission.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-clusters-overview.md",
+        "target": "ml-workflows/pytorch-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-clusters-overview.md",
+        "target": "osc-basics/osc-account-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-clusters-overview.md",
+        "target": "osc-basics/osc-ssh-connection.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-file-transfer.md",
+        "target": "osc-basics/osc-remote-development.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-file-transfer.md",
+        "target": "osc-basics/osc-ondemand.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-file-transfer.md",
+        "target": "working-on-osc/osc-job-submission.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-ondemand.md",
+        "target": "osc-basics/osc-account-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-ondemand.md",
+        "target": "working-on-osc/osc-environment-management.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-ondemand.md",
+        "target": "osc-basics/osc-file-transfer.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-ondemand.md",
+        "target": "working-on-osc/osc-job-submission.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-ondemand.md",
+        "target": "osc-basics/osc-ssh-connection.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-ondemand.md",
+        "target": "osc-basics/osc-remote-development.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-ondemand.md",
+        "target": "ml-workflows/notebook-to-script.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-remote-development.md",
+        "target": "getting-started/vscode-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-remote-development.md",
+        "target": "getting-started/vscode-extensions.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-remote-development.md",
+        "target": "osc-basics/osc-ssh-connection.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-remote-development.md",
+        "target": "osc-basics/osc-file-transfer.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-remote-development.md",
+        "target": "working-on-osc/osc-job-submission.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-remote-development.md",
+        "target": "ml-workflows/pytorch-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-remote-development.md",
+        "target": "ml-workflows/ml-workflow.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-remote-development.md",
+        "target": "resources/troubleshooting.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-ssh-connection.md",
+        "target": "getting-started/wsl-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-ssh-connection.md",
+        "target": "osc-basics/osc-file-transfer.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-ssh-connection.md",
+        "target": "osc-basics/osc-remote-development.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-ssh-connection.md",
+        "target": "working-on-osc/osc-job-submission.md"
+      }
+    },
+    {
+      "data": {
+        "source": "osc-basics/osc-ssh-connection.md",
+        "target": "resources/troubleshooting.md"
+      }
+    },
+    {
+      "data": {
+        "source": "resources/concept-map.md",
+        "target": "working-on-osc/osc-job-submission.md"
+      }
+    },
+    {
+      "data": {
+        "source": "resources/concept-map.md",
+        "target": "ml-workflows/pytorch-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "resources/concept-map.md",
+        "target": "working-on-osc/osc-environment-management.md"
+      }
+    },
+    {
+      "data": {
+        "source": "resources/concept-map.md",
+        "target": "ml-workflows/data-experiment-tracking.md"
+      }
+    },
+    {
+      "data": {
+        "source": "resources/concept-map.md",
+        "target": "osc-basics/osc-ssh-connection.md"
+      }
+    },
+    {
+      "data": {
+        "source": "resources/concept-map.md",
+        "target": "github/git-fundamentals.md"
+      }
+    },
+    {
+      "data": {
+        "source": "resources/concept-map.md",
+        "target": "getting-started/agent-workflows.md"
+      }
+    },
+    {
+      "data": {
+        "source": "resources/concept-map.md",
+        "target": "contributing/how-this-site-works.md"
+      }
+    },
+    {
+      "data": {
+        "source": "resources/templates.md",
+        "target": "assignments/personal-website.md"
+      }
+    },
+    {
+      "data": {
+        "source": "resources/templates.md",
+        "target": "assignments/typst-cv-guide.md"
+      }
+    },
+    {
+      "data": {
+        "source": "resources/templates.md",
+        "target": "resources/presentations.md"
+      }
+    },
+    {
+      "data": {
+        "source": "resources/troubleshooting.md",
+        "target": "osc-basics/osc-remote-development.md"
+      }
+    },
+    {
+      "data": {
+        "source": "resources/troubleshooting.md",
+        "target": "ml-workflows/pytorch-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "resources/troubleshooting.md",
+        "target": "resources/useful-links.md"
+      }
+    },
+    {
+      "data": {
+        "source": "resources/troubleshooting.md",
+        "target": "osc-basics/osc-clusters-overview.md"
+      }
+    },
+    {
+      "data": {
+        "source": "resources/troubleshooting.md",
+        "target": "working-on-osc/osc-job-submission.md"
+      }
+    },
+    {
+      "data": {
+        "source": "resources/useful-links.md",
+        "target": "osc-basics/osc-ondemand.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/carla-simulator.md",
+        "target": "osc-basics/osc-account-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/carla-simulator.md",
+        "target": "working-on-osc/osc-job-submission.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/carla-simulator.md",
+        "target": "working-on-osc/osc-environment-management.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/carla-simulator.md",
+        "target": "ml-workflows/data-experiment-tracking.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/carla-simulator.md",
+        "target": "ml-workflows/pytorch-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/carla-simulator.md",
+        "target": "ml-workflows/notebook-to-script.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/carla-simulator.md",
+        "target": "resources/troubleshooting.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/index.md",
+        "target": "osc-basics/index.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/index.md",
+        "target": "ml-workflows/index.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/index.md",
+        "target": "working-on-osc/osc-job-submission.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/index.md",
+        "target": "working-on-osc/osc-environment-management.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/index.md",
+        "target": "working-on-osc/pipeline-orchestration.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/index.md",
+        "target": "working-on-osc/carla-simulator.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/index.md",
+        "target": "working-on-osc/matlab-simulink.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/matlab-simulink.md",
+        "target": "working-on-osc/osc-job-submission.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/matlab-simulink.md",
+        "target": "working-on-osc/osc-environment-management.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/matlab-simulink.md",
+        "target": "ml-workflows/notebook-to-script.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/matlab-simulink.md",
+        "target": "resources/troubleshooting.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/osc-environment-management.md",
+        "target": "ml-workflows/pyg-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/osc-environment-management.md",
+        "target": "ml-workflows/pytorch-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/osc-environment-management.md",
+        "target": "ml-workflows/rapids-gpu-preprocessing.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/osc-environment-management.md",
+        "target": "working-on-osc/osc-job-submission.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/osc-job-submission.md",
+        "target": "osc-basics/osc-account-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/osc-job-submission.md",
+        "target": "osc-basics/osc-clusters-overview.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/osc-job-submission.md",
+        "target": "working-on-osc/pipeline-orchestration.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/osc-job-submission.md",
+        "target": "working-on-osc/osc-environment-management.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/osc-job-submission.md",
+        "target": "ml-workflows/pytorch-setup.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/pipeline-orchestration.md",
+        "target": "working-on-osc/osc-job-submission.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/pipeline-orchestration.md",
+        "target": "ml-workflows/ml-workflow.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/pipeline-orchestration.md",
+        "target": "ml-workflows/data-experiment-tracking.md"
+      }
+    },
+    {
+      "data": {
+        "source": "working-on-osc/pipeline-orchestration.md",
+        "target": "ml-workflows/duckdb-analytics.md"
+      }
+    }
+  ]
+}

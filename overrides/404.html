@@ -1,0 +1,14 @@
+{% extends "main.html" %}
+
+{% block content %}
+<h1>404 — Page Not Found</h1>
+<p>The page you're looking for doesn't exist or has been moved.</p>
+
+<div class="md-typeset">
+  <ul>
+    <li><a href="{{ config.site_url }}">Go to the homepage</a></li>
+    <li>Use the <strong>search bar</strong> above to find what you need</li>
+    <li><a href="{{ config.repo_url }}/issues">Report a broken link</a></li>
+  </ul>
+</div>
+{% endblock %}
