@@ -51,7 +51,7 @@ gh repo create my-new-project --template owner/template-repo --clone --public
 This copies the template's file structure into a fresh repository with no shared commit history.
 
 !!! tip "Lab templates"
-    Lab starter templates are listed on the [Templates](../resources/templates.md) page. Check there before creating a repo from scratch — a template may save significant setup time.
+    Lab starter templates live in the [`quarto-lab-templates`](https://github.com/OSU-CAR-MSL/quarto-lab-templates) repository. Check there before creating a repo from scratch — a template may save significant setup time.
 
 ### Cloning an Existing Repository
 
@@ -220,4 +220,4 @@ The repo becomes read-only but remains visible and cloneable. This signals to ot
 - [SSH & Authentication](ssh-and-authentication.md) — set up keys and the `gh` CLI
 - [Issues, PRs & Code Review](../contributing/github-issues-and-prs.md) — the collaboration workflow
 - [GitHub Projects](../contributing/github-projects.md) — project management with boards and tracking
-- [Templates](../resources/templates.md) — lab starter templates
+- [Lab starter templates](https://github.com/OSU-CAR-MSL/quarto-lab-templates) — website and resume starters

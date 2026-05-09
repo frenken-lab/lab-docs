@@ -6,7 +6,7 @@ hide:
 # Getting Started
 
 !!! abstract "What this section covers"
-    Your **local development environment** — the laptop side of the lab. Install WSL2 (Windows only), set up VS Code, configure Python, and plug in AI coding assistants. Once this is done, you're ready to move to the [OSC Basics](../osc-basics/index.md) section to get on the cluster.
+    Your **local development environment** — the laptop side of the lab. Install WSL2 (Windows only), set up VS Code, configure Python, and plug in AI coding assistants. Once this is done, you're ready to move to the [OSC](../osc/index.md) section to get on the cluster.
 
     **Plan on ~4–6 hours total** if you're starting from a fresh Windows machine. macOS/Linux users can skip WSL2 and cut that roughly in half.
 
@@ -82,4 +82,4 @@ hide:
 
 ## After this section
 
-Once your local machine is set up, move to **[OSC Basics](../osc-basics/index.md)** to get your account, SSH in, and run your first job.
+Once your local machine is set up, move to **[OSC](../osc/index.md)** to get your account, SSH in, and run your first job.

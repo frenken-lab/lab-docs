@@ -2,13 +2,13 @@
 hide:
   - toc
 ---
-<!-- last-reviewed: 2026-03-30 -->
+<!-- last-reviewed: 2026-05-09 -->
 # CAR Mobility Systems Lab Setup Guide
 
 Welcome to the OSU CAR Mobility Systems Lab documentation! This guide helps lab members set up their development environment and work effectively on the Ohio Supercomputer Center (OSC).
 
 !!! info "Lab Compute Dashboard"
-    Track our OSC spending, job health, and per-user breakdowns on the [live dashboard](https://huggingface.co/spaces/buckeyeguy/osc-usage-dashboard). Data refreshes automatically every morning. See [how it's built](ml-workflows/huggingface-spaces.md#streamlit-dashboard-with-hf-dataset-cron).
+   Track our OSC spending, job health, and per-user breakdowns on the [live dashboard](https://huggingface.co/spaces/buckeyeguy/osc-usage-dashboard). See [how it's built](ml-workflows/ml-workflow.md#hugging-face-spaces).
 
 ---
 
@@ -20,7 +20,7 @@ New to the lab? Follow these steps to get up and running:
 |:----:|-------|-------------|
 | **1** | **[Install WSL2](getting-started/wsl-setup.md)** | Windows users: set up WSL2 (your Linux development environment) |
 | **2** | **[Set up VS Code](getting-started/vscode-setup.md)** | Install and configure Visual Studio Code with essential extensions |
-| **3** | **[Get OSC Access](osc-basics/osc-account-setup.md)** | Request your account on the Ohio Supercomputer Center |
+| **3** | **[Start on OSC](osc/index.md)** | One page for getting connected and running work on OSC |
 | **4** | **[Connect via SSH](osc-basics/osc-ssh-connection.md)** | Set up SSH keys and connect to OSC from your machine |
 | **5** | **[Start Developing](osc-basics/osc-remote-development.md)** | Use VS Code's Remote-SSH for seamless development on the cluster |
 
@@ -82,21 +82,13 @@ New to the lab? Follow these steps to get up and running:
 
     [:octicons-arrow-right-24: Get started](getting-started/wsl-setup.md)
 
--   :material-server-network:{ .lg .middle } **OSC Basics**
+-   :material-server-network:{ .lg .middle } **OSC**
 
     ---
 
-    Cluster specs, account setup, SSH, remote development, file transfer, and OnDemand.
+    Cluster specs, account setup, SSH, remote development, file transfer, OnDemand, SLURM jobs, and environment management.
 
-    [:octicons-arrow-right-24: Learn OSC basics](osc-basics/osc-clusters-overview.md)
-
--   :material-cog-play:{ .lg .middle } **Working on OSC**
-
-    ---
-
-    SLURM job submission, environment management, pipeline orchestration, and simulators.
-
-    [:octicons-arrow-right-24: Start working](working-on-osc/osc-job-submission.md)
+    [:octicons-arrow-right-24: Open OSC hub](osc/index.md)
 
 -   :material-brain:{ .lg .middle } **ML Workflows**
 
@@ -104,7 +96,7 @@ New to the lab? Follow these steps to get up and running:
 
     PyTorch & GPU setup, PyG, project templates, notebook-to-script, and experiment tracking.
 
-    [:octicons-arrow-right-24: ML guides](ml-workflows/pytorch-setup.md)
+    [:octicons-arrow-right-24: ML guides](ml-workflows/index.md)
 
 -   :material-file-document-edit:{ .lg .middle } **Contributing**
 

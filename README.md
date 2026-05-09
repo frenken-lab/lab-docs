@@ -2,7 +2,7 @@
 
 Comprehensive tutorials and documentation to help OSU CAR Mobility Systems Lab members set up their development environment and workflows on the Ohio Supercomputer Center (OSC).
 
-**View the documentation site:** [osu-car-msl.github.io/lab-setup-guide](https://osu-car-msl.github.io/lab-setup-guide/)
+**View the documentation site:** [frenken-lab.github.io/lab-docs](https://frenken-lab.github.io/lab-docs/)
 
 ## Contributing
 
@@ -11,11 +11,11 @@ The site is built with [MkDocs Material](https://squidfunk.github.io/mkdocs-mate
 To preview locally:
 
 ```bash
-pip install mkdocs-material mkdocs-minify-plugin
+pip install -r requirements-docs.txt
 mkdocs serve
 ```
 
-See the [Contributing guides](https://osu-car-msl.github.io/lab-setup-guide/contributing/how-this-site-works/) on the site for full details.
+See the [Contributing guides](https://frenken-lab.github.io/lab-docs/contributing/how-this-site-works/) on the site for full details.
 
 ## License
 

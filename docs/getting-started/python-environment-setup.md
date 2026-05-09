@@ -62,7 +62,7 @@ uv venv
 source .venv/bin/activate
 
 # Install docs dependencies
-uv pip install mkdocs-material mkdocs-minify-plugin
+uv pip install -r requirements-docs.txt
 
 # Verify the site builds
 mkdocs serve   # visit http://127.0.0.1:8000

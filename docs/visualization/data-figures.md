@@ -110,7 +110,7 @@ plt.style.use('paper/figures/paper.mplstyle')
 
 ---
 
-## `altair` / Vega-Lite for dual static + interactive
+## `altair` / Vega-Lite for dual static + interactive {#altair-vega-lite}
 
 This is **Sasha Rush's pattern in [*The Annotated Transformer*](https://nlp.seas.harvard.edu/annotated-transformer/)** — see [`the_annotated_transformer.py:473`](https://raw.githubusercontent.com/harvardnlp/annotated-transformer/master/the_annotated_transformer.py) for the subsequent-mask heatmap and `:1974` for the attention-head heatmaps.
 
@@ -310,7 +310,7 @@ Now `make figures` regenerates every figure from the committed data; reviewers c
     1. **Exporting a `pd.DataFrame.plot()` to PNG and treating it as the paper figure.** The defaults look like Jupyter notebooks, not paper figures. Always apply a style.
     2. **Hand-tuning each figure's colors separately.** Drift is guaranteed — figure 3 will be blue-ish while figure 5 is blue-er. Use `palette.py`.
     3. **Re-authoring the same figure in a different tool for the talk.** Reuse the paper figure or reuse the data + swap the style. Never re-author from scratch.
-    4. **Putting figure-generation code inside notebooks that also train models.** Figure scripts should be pure: read data, plot, save. See [Notebook-to-Script](../ml-workflows/notebook-to-script.md).
+    4. **Putting figure-generation code inside notebooks that also train models.** Figure scripts should be pure: read data, plot, save. See [Notebook-to-Script Workflow](../ml-workflows/ml-workflow.md#notebook-to-script-workflow).
     5. **Using matplotlib's default palette in a TMLR paper.** The default cycle (`tab:blue`, `tab:orange`, etc.) is colorblind-unsafe for certain pairs and has strong "intro ML course" associations. Override with your palette.
     6. **Embedding raw data in the figure script.** Hardcoded numbers break reproducibility. Read from a committed Parquet/CSV in `data/`.
 

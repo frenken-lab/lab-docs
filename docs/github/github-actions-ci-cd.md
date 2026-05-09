@@ -287,5 +287,5 @@ gh workflow run ci.yml
 - [Git Fundamentals](git-fundamentals.md) — core Git commands
 - [GitHub Pages Setup](../contributing/github-pages-setup.md) — deploying documentation sites with Actions
 - [GitHub Projects](../contributing/github-projects.md) — automated project board updates via Actions
-- [Hugging Face Spaces](../ml-workflows/huggingface-spaces.md) — deploying ML demos
+- [Hugging Face Spaces](../ml-workflows/ml-workflow.md#hugging-face-spaces) — deploying ML demos
 - [SSH & Authentication](ssh-and-authentication.md) — tokens and secrets setup

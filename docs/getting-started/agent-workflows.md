@@ -153,7 +153,7 @@ MCP servers are configured in `~/.claude.json` (user-scope) or `.claude.json` (p
 
 ```
 You: "How do I set up PyG on OSC?"
-Claude: [searches lab-docs MCP] → returns the relevant section from pyg-setup.md
+Claude: [searches lab-docs MCP] → returns the relevant section from the PyG section of the PyTorch page
 ```
 
 **Library documentation** — [Context7](https://github.com/upstash/context7) aggregates docs for hundreds of libraries (PyTorch, Ray, pandas, etc.):

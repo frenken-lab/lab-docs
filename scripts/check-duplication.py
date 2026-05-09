@@ -9,7 +9,7 @@ import re
 import sys
 from pathlib import Path
 
-# (pattern, canonical page relative to docs/)
+# (pattern, canonical page relative to docs/; anchors allowed)
 CANONICAL_PATTERNS: list[tuple[str, str]] = [
     (r"python -m venv", "working-on-osc/osc-environment-management.md"),
     (r"pip install torch", "ml-workflows/pytorch-setup.md"),
@@ -19,11 +19,16 @@ CANONICAL_PATTERNS: list[tuple[str, str]] = [
     (r"ssh-keygen", "osc-basics/osc-ssh-connection.md"),
     (r"scp .+ osc\.edu", "osc-basics/osc-file-transfer.md"),
     (r"rsync .+ osc\.edu", "osc-basics/osc-file-transfer.md"),
-    (r"mlflow\.", "ml-workflows/data-experiment-tracking.md"),
-    (r"wandb\.", "ml-workflows/data-experiment-tracking.md"),
+    (r"mlflow\.", "ml-workflows/ml-workflow.md#experiment-tracking"),
+    (r"wandb\.", "ml-workflows/ml-workflow.md#experiment-tracking"),
 ]
 
 DOCS = Path("docs")
+
+
+def canonical_page(canonical: str) -> str:
+    """Return the page path without any anchor suffix."""
+    return canonical.split("#", 1)[0]
 
 
 def in_code_block(lines: list[str], line_idx: int) -> bool:
@@ -45,7 +50,7 @@ def main() -> None:
         lines = text.split("\n")
 
         for pattern, canonical in CANONICAL_PATTERNS:
-            if rel == canonical:
+            if rel == canonical_page(canonical):
                 continue
             for i, line in enumerate(lines):
                 if re.search(pattern, line) and not in_code_block(lines, i):

@@ -22,7 +22,7 @@ This guide walks through setting up a documentation website using GitHub Pages �
 #### 1. Install
 
 ```bash
-pip install mkdocs-material
+pip install -r requirements-docs.txt
 ```
 
 #### 2. Create a New Project
@@ -116,7 +116,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
-      - run: pip install mkdocs-material
+      - run: pip install -r requirements-docs.txt
       - run: mkdocs build --strict
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -133,7 +133,7 @@ Go to your repo's **Settings > Pages** and set the source to **GitHub Actions**.
 
 - **Colors** — Set `palette.primary` and `palette.accent` in `mkdocs.yml`, or add a custom CSS file
 - **Dark mode** — Add a palette toggle (see this site's `mkdocs.yml` for an example)
-- **Plugins** — Add search, minification, or social cards via the `plugins:` section
+- **Plugins** — Add search, minification, or image helpers via the `plugins:` section
 - **Admonitions** — Enable `admonition` and `pymdownx.details` extensions for callout boxes
 
 !!! tip "Use this site as a template"

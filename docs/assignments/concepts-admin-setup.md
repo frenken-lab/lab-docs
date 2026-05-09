@@ -59,7 +59,7 @@ Weights & Biases (W&B) is the lab's experiment tracker. Every training run logs 
 
 5. Check [wandb.ai](https://wandb.ai/) — you should see a "test" project with one run.
 
-For more on experiment tracking tools, see [Data & Experiment Tracking](../ml-workflows/data-experiment-tracking.md).
+For more on experiment tracking tools, see [Experiment Tracking](../ml-workflows/ml-workflow.md#experiment-tracking).
 
 - [ ] W&B account created with university email
 - [ ] `wandb login` successful
@@ -223,7 +223,7 @@ Now answer these four questions with SQL — the same questions W&B's UI lets yo
 
 Run each query with `cursor.execute(...)` and print the results with `cursor.fetchall()`.
 
-For a more complete example of SQLite in a lab project, see [SQLite Project Database](../ml-workflows/data-experiment-tracking.md#sqlite-project-database).
+For a more complete example of SQLite in a lab project, see [SQLite Project Database](../ml-workflows/ml-workflow.md#sqlite-project-database).
 
 ### Reflection questions
 
